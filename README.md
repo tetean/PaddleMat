@@ -135,6 +135,18 @@ python train.py \
 
 ## 训练命令详解
 
+| 参数         | 类型  | 默认值       | 描述                 |
+| ------------ | ----- | ------------ | -------------------- |
+| `--config`   | str   | config.yaml  | 配置文件路径         |
+| `--data_dir` | str   | 必需         | 数据根目录           |
+| `--task`     | str   | 必需         | 任务名称             |
+| `--model`    | str   | ALIGNN       | 模型名称             |
+| `--batch_size` | int | 64           | 批大小               |
+| `--train_ratio` | float | 0.8       | 训练集比例           |
+| `--val_ratio` | float | 0.1         | 验证集比例           |
+| `--seed`     | int   | 42           | 随机种子             |
+| `--save_dir` | str   | checkpoints  | 模型保存目录         |
+| `--early_stop` | int | 100          | 早停轮数（0 禁用）   |
 
 
 ## 输出
@@ -163,6 +175,7 @@ Test Results:
 3. 自动创建时间戳目录避免覆盖
 ```
 
+---
 > 欢迎提交Issue和Pull Request来改进项目！
 > 如有问题或建议，请通过以下方式联系：
-> a@tetean.com
+> ## $a@tetean.com$
