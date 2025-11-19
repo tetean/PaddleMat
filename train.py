@@ -14,14 +14,6 @@ from alignn_paddle_model import ALIGNN
 from alignn_data_utils import load_dataset, ALIGNNDataset, collate_fn
 
 
-def count_parameters(model):
-    """计算模型的总参数量和可训练参数量"""
-    total_params = sum(p.numel() for p in model.parameters())
-    trainable_params = sum(p.numel() for p in model.parameters() if not p.stop_gradient)
-
-    return total_params, trainable_params
-
-
 def train_one_epoch(model, train_loader, optimizer, config, epoch):
     """Train for one epoch, handling batched graph data."""
     model.train()
