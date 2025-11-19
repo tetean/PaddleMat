@@ -17,9 +17,9 @@
 
 ---
 
-# PaddleMat：基于PaddlePaddle框架的图神经网络的材料性质预测
+# PaddleMat：基于PaddlePaddle框架的ALIGNN模型的材料性能预测研究与优化
 
-本项目基于 **PaddlePaddle** 实现了 **ALIGNN（Atomistic Line Graph Neural Network）** 模型，并支持 **Evidential Uncertainty（证据不确定性估计）** 的回归任务，主要用于晶体材料性质预测（如带隙、形成能等）。
+本项目基于 **PaddlePaddle** 实现了 **ALIGNN（Atomistic Line Graph Neural Network）** 模型，并支持 **Evidential Uncertainty（证据不确定性估计）** 的回归任务，主要用于晶体材料性质预测（如剥离能、带隙、形成能等）。
 
 ---
 
