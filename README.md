@@ -25,8 +25,8 @@
 
 ## 主要环境要求
 ```python
-Python >= 3.9
-PaddlePaddle >= 3.1.0
+Python
+PaddlePaddle
 numpy
 pandas
 scikit-learn
@@ -74,6 +74,14 @@ alignn-paddlepaddle/
 ├── checkpoints/               # 模型保存目录
 └── logs/                     # 训练日志
 ```
+
+## 数据集下载
+
+为了快速读取和节省存储空间，我们提供了一个经过预处理的 JDFT2D 数据 pdstate 文件，该文件已打包，可供 ALIGNN 使用。
+
+通过此链接下载：[https://drive.google.com/file/d/1IDTFJPrGv7gZ4cRvJTnr9MiPxf7vOwiM/view?usp=drive_link](https://drive.google.com/file/d/1IDTFJPrGv7gZ4cRvJTnr9MiPxf7vOwiM/view?usp=drive_link)
+
+然后，把它放到`data/jdft2d文`件夹中。
 
 ## 配置模型参数
 在 `config.yaml` 中配置不同的模型参数：
@@ -178,4 +186,4 @@ Test Results:
 ---
 > 欢迎提交Issue和Pull Request来改进项目！
 > 如有问题或建议，请通过以下方式联系：
-> ### $a@tetean.com$
+> ### a@tetean.com
