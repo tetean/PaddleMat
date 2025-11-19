@@ -180,7 +180,6 @@ Test Results:
 ```
 1. ALIGNN_best.pdparams: 最佳模型权重 
 2. ALIGNN_history.json: 训练历史记录 
-3. 自动创建时间戳目录避免覆盖
 ```
 
 ---
