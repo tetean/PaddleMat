@@ -81,7 +81,7 @@ alignn-paddlepaddle/
 
 通过此链接下载：[https://drive.google.com/file/d/1IDTFJPrGv7gZ4cRvJTnr9MiPxf7vOwiM/view?usp=drive_link](https://drive.google.com/file/d/1IDTFJPrGv7gZ4cRvJTnr9MiPxf7vOwiM/view?usp=drive_link)
 
-然后，把它放到`data/jdft2d文`件夹中。
+然后，把它放到`data/jdft2d`文件夹中。
 
 ## 配置模型参数
 在 `config.yaml` 中配置不同的模型参数：
